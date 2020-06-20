@@ -1,0 +1,40 @@
+
+# include <stdio.h>
+
+int main(){
+
+        // STEP 1
+
+        // Declare and initialize 2 integers a and b.
+        // Declare a variable pi that stores an address to an int. Eg: int *y;
+        printf("Value of a is %d and value of b is %d\n", a, b);
+
+        /***********************************************************************/
+        //STEP 2
+        // assign the (address of a -- &a) to pi
+        // write the code for the above comment here
+
+
+
+        // what does the line below do?
+        *pi = 333;
+        // Note: *pi is dereferencing pi
+        printf("Value of a is %d and value of b is %d\n", a, b);
+
+        /***********************************************************************/
+        //STEP 3
+
+        // assign the (address of b) to pi
+        // write the code for the above comment here
+
+        printf("Value of a is %d and value of b is %d\n", a, b);
+
+        a = 444;
+        b = 555;
+
+        printf("Value of a is %d and value of b is %d\n", a, b);
+        printf("%d\n", *pi);
+        printf("%p\n", (void *)pi);
+
+
+}
