@@ -1,0 +1,75 @@
+Trying:
+    from q_geometry import Tri
+Expecting nothing
+ok
+Trying:
+    t1 = Tri(1, 2)
+Expecting nothing
+ok
+Trying:
+    t2 = Tri(2, 3)
+Expecting nothing
+ok
+Trying:
+    t3 = Tri()
+Expecting nothing
+ok
+Trying:
+    t1
+Expecting:
+    Tri(1,2)
+**********************************************************************
+File "test_tri.txt", line 5, in test_tri.txt
+Failed example:
+    t1
+Expected:
+    Tri(1,2)
+Got:
+    Tri(1,2)
+Trying:
+    t2
+Expecting:
+    Tri(2,3)
+**********************************************************************
+File "test_tri.txt", line 7, in test_tri.txt
+Failed example:
+    t2
+Expected:
+    Tri(2,3)
+Got:
+    Tri(2,3)
+Trying:
+    t3
+Expecting:
+    Tri(0,0)
+**********************************************************************
+File "test_tri.txt", line 9, in test_tri.txt
+Failed example:
+    t3
+Expected:
+    Tri(0,0)
+Got:
+    Tri(0,0)
+Trying:
+    t2.area()
+Expecting:
+    3
+**********************************************************************
+File "test_tri.txt", line 11, in test_tri.txt
+Failed example:
+    t2.area()
+Expected:
+    3
+Got:
+    3
+Trying:
+    t2.perimeter()
+Expecting:
+    123
+ok
+**********************************************************************
+1 items had failures:
+   4 of   9 in test_tri.txt
+9 tests in 1 items.
+5 passed and 4 failed.
+***Test Failed*** 4 failures.

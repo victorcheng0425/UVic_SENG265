@@ -1,0 +1,19 @@
+>>> from q_geometry import Point, Square
+>>> p1 = Point(5, 5)
+>>> p2 = Point(1, -1)
+>>> s1 = Square(p1, p2)
+>>> s1
+Square(Point(5, 5), Point(1, -1))
+>>> s1.perimeter()
+20
+>>> s1.area()
+24
+>>> s2 = s1.translate(-11, +3.14)
+>>> s1
+Square(Point(5, 5), Point(1, -1))
+>>> s2
+Square(Point(-6, 8.14), Point(-10, 2.14))
+>>> s2.perimeter()
+20.0
+>>> s2.area()
+24.0

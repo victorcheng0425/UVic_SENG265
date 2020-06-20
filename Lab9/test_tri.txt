@@ -1,0 +1,14 @@
+>>> from q_geometry import Tri
+>>> t1 = Tri(1, 2)
+>>> t2 = Tri(2, 3)
+>>> t3 = Tri()
+>>> t1
+Tri(1,2)
+>>> t2
+Tri(2,3)
+>>> t3
+Tri(0,0)
+>>> t2.area()
+3
+>>> t2.perimeter()
+123

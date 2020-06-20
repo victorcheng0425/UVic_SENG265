@@ -1,0 +1,2 @@
+testing
+/devnullisland/beach/jungle/swamp/hills/clearing/chest.txt

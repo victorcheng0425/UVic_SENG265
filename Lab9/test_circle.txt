@@ -1,0 +1,18 @@
+>>> from q_geometry import Point, Circle
+>>> p1 = Point()
+>>> c1 = Circle(p1, 10)
+>>> c1
+Circle(Point(0, 0), 10)
+>>> c2 = c1.translate(-3.14, +12.2)
+>>> c1
+Circle(Point(0, 0), 10)
+>>> c2
+Circle(Point(-3.14, 12.2), 10)
+>>> c1.perimeter()
+62.83185307179586
+>>> c1.area()
+314.1592653589793
+>>> c2.perimeter()
+62.83185307179586
+>>> c2.area()
+314.1592653589793

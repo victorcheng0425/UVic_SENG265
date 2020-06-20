@@ -1,0 +1,19 @@
+Add a function called add_inorder to listy.c (and make the necessary change to listy.h).
+This function will add the provided node_t to the linked list in chronological order (ie, 
+events with earlier start dates will be closer to the head of the list).
+
+The function signature of add_inorder should look like this:
+
+node_t * add_inorder(node_t *list, node_t *new)
+
+Where list contains the address of the head of the list, and new contains the address
+of the new node to add.
+
+This function returns a pointer to the head of the list after the add is performed.
+
+When add_inorder is correctly implemented, the following is
+the expected output from ./lab8:
+
+EVENT: 20190701T180000 20190701T230000 'Canada Day' 'Pat's plac'
+EVENT: 20190706T120000 20190706T160000 'summary 1' 'location 1'
+EVENT: 20190707T093000 20190707T102000 'uvwxyz 123' 'abcde 1234'
